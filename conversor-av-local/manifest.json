@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Conversor A/V Local",
+  "version": "1.0",
+  "description": "Converte MP4 para MP3 e MP3 para MP4 100% offline, direto no navegador, sem enviar nada para nenhum servidor.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Abrir Conversor"
+  },
+  "permissions": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}
